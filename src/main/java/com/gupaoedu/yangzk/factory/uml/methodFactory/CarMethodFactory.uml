@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.gupaoedu.yangzk.factory.methodFactory.CarMethodFactory</OriginalElement>
+  <nodes>
+    <node x="166.0" y="80.0">com.gupaoedu.yangzk.factory.methodFactory.MotorbikeFactory</node>
+    <node x="0.0" y="80.0">com.gupaoedu.yangzk.factory.methodFactory.SedanCarFactory</node>
+    <node x="79.25" y="0.0">com.gupaoedu.yangzk.factory.methodFactory.CarMethodFactory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.gupaoedu.yangzk.factory.methodFactory.MotorbikeFactory" target="com.gupaoedu.yangzk.factory.methodFactory.CarMethodFactory">
+      <point x="0.0" y="-15.0" />
+      <point x="242.5" y="55.0" />
+      <point x="197.0" y="55.0" />
+      <point x="39.25" y="15.0" />
+    </edge>
+    <edge source="com.gupaoedu.yangzk.factory.methodFactory.SedanCarFactory" target="com.gupaoedu.yangzk.factory.methodFactory.CarMethodFactory">
+      <point x="0.0" y="-15.0" />
+      <point x="73.0" y="55.0" />
+      <point x="118.5" y="55.0" />
+      <point x="-39.25" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="78.5" y="15.0" />
+  <SelectedNodes>
+    <node>com.gupaoedu.yangzk.factory.methodFactory.CarMethodFactory</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
