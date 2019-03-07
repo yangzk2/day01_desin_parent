@@ -5,9 +5,9 @@ package com.gupaoedu.yangzk.factory.abstractFactory;
  */
 public interface CarFactory {
     /**
-     * 生产车
+     * 创建车
      * @return
      */
-    void carete();
+     void carete();
 
 }
