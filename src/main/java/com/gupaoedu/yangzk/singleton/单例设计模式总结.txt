@@ -7,14 +7,14 @@
 
 饿汉
     优点:绝对线程安全
-    缺点:占着茅坑不拉屎
+    缺点:占用内存资源（占着茅坑不拉屎）
     做法:
         1.直接new
         2.在static块中new
 
 懒汉
     优点:省
-    缺点:需要程序员自己解决线程问题
+    缺点:需要我们自己解决线程问题
     做法:
         1.dlc + volatile
         2.内部类
@@ -30,7 +30,6 @@
 
 序列化
     ObjectInputStream,ObjectOutputstream可以破坏
-    覆写readResolve()方法
-
+    重写readResolve()方法
 ThreadLocal
     线程内安全
