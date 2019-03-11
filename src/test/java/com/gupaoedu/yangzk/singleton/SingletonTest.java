@@ -3,11 +3,11 @@ package com.gupaoedu.yangzk.singleton;
 
 import com.gupaoedu.yangzk.singleton.hungry.HungrySingleton;
 import com.gupaoedu.yangzk.singleton.hungry.HungryStaticSingleton;
+import com.gupaoedu.yangzk.singleton.lazy.DoubleLazySingleton;
 import com.gupaoedu.yangzk.singleton.lazy.LazySingleton;
 import com.gupaoedu.yangzk.singleton.threadLocal.ExectorThread;
 import org.junit.Test;
 
-import javax.swing.plaf.TableHeaderUI;
 
 public class SingletonTest {
 
@@ -39,5 +39,10 @@ public class SingletonTest {
         thread.start();
         thread2.start();
         System.out.println("Exector End");
+    }
+    @Test
+    public void DoubleLazySingletonTest(){
+        DoubleLazySingleton doubleLazySingleton = DoubleLazySingleton.get();
+        System.out.println(doubleLazySingleton);
     }
 }
