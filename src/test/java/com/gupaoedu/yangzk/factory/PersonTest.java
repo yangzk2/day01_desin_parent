@@ -1,4 +1,4 @@
-package com.guopaoedu.yangzk.factory.test;
+package com.gupaoedu.yangzk.factory;
 
 import com.gupaoedu.yangzk.factory.Motorbike;
 import com.gupaoedu.yangzk.factory.Person;
